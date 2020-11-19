@@ -11,4 +11,7 @@ public protocol Palettable: class {
     var mainTexts: UIColor { get }
     var secondaryTexts: UIColor { get }
     var textOnPrimary: UIColor { get }
+    var inactive: UIColor { get }
+    var placeholder: UIColor { get }
+    var lightGray: UIColor { get }
 }
