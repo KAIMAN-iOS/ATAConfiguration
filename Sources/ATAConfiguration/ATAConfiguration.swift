@@ -1,11 +1,11 @@
 import UIKit
 
-protocol ATAConfiguration: class {
+public protocol ATAConfiguration: class {
     var palette: Palettable { get }
     var logo: UIImage? { get }
 }
 
-protocol Palettable: class {
+public protocol Palettable: class {
     var primary: UIColor { get }
     var secondary: UIColor { get }
     var mainTexts: UIColor { get }
