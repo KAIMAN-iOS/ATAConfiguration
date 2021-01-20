@@ -14,4 +14,7 @@ public protocol Palettable: class {
     var inactive: UIColor { get }
     var placeholder: UIColor { get }
     var lightGray: UIColor { get }
+    var action: UIColor { get }
+    var confirmation: UIColor { get }
+    var alert: UIColor { get }
 }
