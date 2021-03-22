@@ -19,4 +19,5 @@ public protocol Palettable: class {
     var alert: UIColor { get }
     var background: UIColor { get }
     var backgroundDark: UIColor { get }
+    var textOnDark: UIColor { get }
 }
