@@ -6,6 +6,7 @@ public protocol ATAConfiguration: class {
 }
 
 public protocol Palettable: class {
+    
     var primary: UIColor { get }
     var secondary: UIColor { get }
     var mainTexts: UIColor { get }
