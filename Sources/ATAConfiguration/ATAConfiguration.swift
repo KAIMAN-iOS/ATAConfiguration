@@ -5,8 +5,21 @@ public protocol ATAConfiguration: class {
     var logo: UIImage? { get }
 }
 
-public protocol Palettable: class {
+public struct MapColors {
+    public var destination: UIColor
+    public var origin: UIColor
+    public var approach: UIColor
     
+    public init(destination: UIColor,
+                origin: UIColor,
+                approach: UIColor) {
+        self.destination = destination
+        self.origin = origin
+        self.approach = approach
+    }
+}
+
+public protocol Palettable: class {
     var primary: UIColor { get }
     var secondary: UIColor { get }
     var mainTexts: UIColor { get }
@@ -21,4 +34,6 @@ public protocol Palettable: class {
     var background: UIColor { get }
     var backgroundDark: UIColor { get }
     var textOnDark: UIColor { get }
+    var map: MapColors { get }
+    
 }
