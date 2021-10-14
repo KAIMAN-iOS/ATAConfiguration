@@ -35,5 +35,5 @@ public protocol Palettable: class {
     var backgroundDark: UIColor { get }
     var textOnDark: UIColor { get }
     var map: MapColors { get }
-    
+    var activityIndicator: UIColor { get }
 }
